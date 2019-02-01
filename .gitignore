@@ -8,3 +8,5 @@ conf/exec
 app/db/dbconf.yml
 *.pem
 vendor/
+docker/
+node_modules/
