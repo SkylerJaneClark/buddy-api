@@ -7,6 +7,8 @@ With the goal of eliminating awkward interactions, (or creating more), the buddy
 Laid back enough to be used for situations of being alone at lunch, but useful enough to help people get out of potentially dangerous encounters, buddy is an alibi generator for the masses.
 
 # Setup
-To run the buddy webapp locally, all you need to do is run the docker-compose script, and ask me for the environment variables to put in docker/list.env. 
+touch docker/list.env
+ask me for the environment variables to put in that file 
 
-I'm using mkcert for the local signed cert, since firebase won't allow an untrusted cert to make keys.
+install mkcert, and copy the cert files into conf, called rootCA.pem and rootCA-key.pem
+after that just run docker-compose build, and send it
